@@ -1,0 +1,260 @@
+* {
+    font-family: Helvetica;
+}
+
+.navbarMicro {
+    text-decoration: aqua;
+    color: aqua;
+}
+
+.imageBackgroundMicro {
+    background-image: url(../img/SkincareBack2.jpg);
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    padding: 5%
+}
+
+.squareBack {
+    width: 100%;
+    background-color: rgba(43, 139, 129, 0.309);
+}
+
+.reservation,
+.page-header-prueba,
+.offer,
+.footer {
+    background: linear-gradient(rgb(43, 139, 129), rgba(54, 243, 221, 0.537));
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleFunda {
+    margin-bottom: 3rem;
+    color: #fff;
+    font-family: Helvetica;
+}
+
+.containerTitlemicro1 {
+    text-align: center;
+}
+
+.containerAll {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conatinerBackExtra {
+    display: flex;
+    justify-content: center;
+    width: 28%;
+    padding: 1vw;
+}
+
+.SkinCare h3 {
+    background-color: rgb(2, 191, 191);
+    width: 9.5vw;
+    color: #000;
+    font-size: 2.2vw;
+}
+
+.SkinCare li {
+    color: #fff;
+}
+
+.SkinCare p {
+    color: #fff;
+    margin: 0;
+}
+
+.SkinCare .lastLi {
+    color: #fff;
+    margin-bottom: 2vw;
+}
+
+
+.Makeup h3 {
+    background-color: rgb(2, 191, 191);
+    width: 8vw;
+    color: #000;
+    font-size: 2.2vw;
+}
+
+.Makeup li {
+    color: #fff;
+}
+
+.Makeup .lastLi {
+    margin-bottom: 2vw;
+}
+
+.salonSpa h3 {
+    background-color: rgb(2, 191, 191);
+    width: 52%;
+    color: #000;
+}
+
+.salonSpa li {
+    color: #fff;
+}
+
+.containerLeght h3 {
+    background-color: rgb(2, 191, 191);
+    width: 7vw;
+    color: #000;
+    font-size: 2.3vw;
+}
+
+.containerSchedule h3 {
+    background-color: rgb(2, 191, 191);
+    width: 9.5vw;
+    color: #000;
+    font-size: 2.3vw;
+}
+
+.LengthHours p {
+    color: #fff;
+}
+
+.containerInfoSchedule li {
+    color: #fff;
+}
+
+.containerInfoSchedule p {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.containerInfoSchedule li {
+    margin-top: 2vw;
+}
+
+.containerInfoSchedule .LastP {
+    margin-bottom: 2vw;
+}
+
+.ASMScholarship h3 {
+    background-color: rgb(2, 191, 191);
+    width: 80%;
+    color: #000;
+}
+
+.floridaFacialLicenseSkincare .floridaFacialTitle {
+    margin-top: 2vw;
+}
+
+.floridaFacialLicenseSkincare .folridaFacialText {
+    margin-bottom: 0;
+}
+
+.ASMScholarship p {
+    color: #fff;
+}
+
+.BilingualClasses h3 {
+    background-color: rgb(2, 191, 191);
+    width: 12vw;
+    color: #000;
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+.BilingualClasses p {
+    color: #fff;
+    margin: 0;
+}
+
+.BilingualClasses .lastP {
+    margin-bottom: 2vw;
+}
+
+.privateFinancing h3 {
+    background-color: rgb(2, 191, 191);
+    width: 18vw;
+    color: #000;
+    font-size: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+.JobPlacementAvailable h3 {
+    background-color: rgb(2, 191, 191);
+    width: 17vw;
+    color: #000;
+    font-size: 1.5vw;
+}
+
+.JobPlacementAvailable p {
+    color: #fff;
+}
+
+.JobPlacementAvailable li {
+    color: #fff;
+}
+
+.lastLi {
+    margin-bottom: 2vw;
+}
+
+.salonSpa h3 {
+    background-color: rgb(2, 191, 191);
+    width: 23vw;
+    color: #000;
+    font-size: 2vw;
+}
+
+.FloridaLaw h3 {
+    background-color: rgb(2, 191, 191);
+    width: 10.5vw;
+    font-size: 2vw;
+    color: #000;
+}
+
+.FloridaLaw p {
+    color: #fff;
+}
+
+.FloridaLaw li {
+    color: #fff;
+}
+
+.btnTwitter:hover {
+    background-color: #000;
+    color: aqua;
+}
+
+.btnFacebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btnYoutube:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.cuadroDropdown a {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.631);
+    color: #fff;
+}
+
+.cuadroDropdown {
+    background: linear-gradient(to right, #0000001e, #ffffffa3);
+}

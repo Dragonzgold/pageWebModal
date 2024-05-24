@@ -1,0 +1,328 @@
+body {
+    background-color: #fff;
+}
+
+/* Aqui comienza la parte del enrutamiento del nav */
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin-right: 70px;
+    margin-top: -25px;
+}
+
+.menu a {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.menu a span {
+    transition: transform 0.2s ease-out;
+}
+
+.menu a span:first-child {
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu a span:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+}
+
+.menu i {
+    font-size: 2.5rem;
+}
+
+.menu a:hover span:first-child {
+    transform: translateY(100%);
+}
+
+.menu a:hover span:last-child,
+.menu[data-animation] a:hover span:last-child {
+    transform: none;
+    color: #fff;
+}
+
+.menu[data-animation="to-top"] a span:last-child {
+    transform: translateY(100%);
+}
+
+.menu[data-animation="to-top"] a:hover span:first-child {
+    transform: translateY(-100%);
+}
+
+@media (max-width: 991px) {
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Centra verticalmente los elementos */
+        flex-wrap: wrap;
+        /* Ajusta el contenido al ancho del contenedor */
+    }
+
+    .menu li {
+        margin: 15px;
+        /* Ajusta los márgenes */
+    }
+}
+
+/* Aqui empieza la parte de los carousel */
+.titleCarousel0 {
+    width: 100%;
+    font-size: 55rem;
+    color: blanchedalmond;
+    opacity: .3;
+    animation: movimiento 10s infinite;
+    letter-spacing: 5rem;
+}
+
+@keyframes movimiento {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-220%);
+    }
+}
+
+.nameEmpressNav {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    margin-top: -50px;
+}
+
+@media (max-width: 1171px) {
+    .nameEmpressNav {
+        margin-top: 0px;
+    }
+}
+
+.nameEmpressNav:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.titleCarousel1 {
+    font-size: 4rem;
+    color: blanchedalmond;
+    opacity: .5;
+}
+
+.titleCarousel2 {
+    font-size: 3rem;
+    color: blanchedalmond;
+    opacity: 85;
+}
+
+.imgCarroussel2 {
+    width: 80%;
+}
+
+
+.footerText {
+    display: flex;
+    justify-content: space-around;
+}
+
+.reservation,
+.page-header,
+.offer,
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/footer2.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    z-index: 1;
+}
+
+.btnTwitter:hover {
+    background-color: #000;
+    color: aqua;
+}
+
+.btnFacebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btnYoutube:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.cuadroDropdown a {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.631);
+    color: #fff;
+}
+
+.cuadroDropdown {
+    background: linear-gradient(to right, #0000001e, #ffffffa3);
+}
+
+.homeService {
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+.containerAllImageIcon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.containerAllImageIcon img {
+    width: 60px;
+}
+
+.containerImageMark {
+    margin-bottom: 3vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 15vw;
+    height: 15vw;
+    background: linear-gradient(rgb(144, 9, 9), rgb(0, 0, 0));
+}
+
+.containerImageMark:hover {
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    box-shadow: 6px 5px 5px 1px rgb(128, 128, 128);
+    animation-duration: 1s;
+    animation-name: zoomImgIcon;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoomImgIcon {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.5);
+    }
+
+}
+
+.containerImageMark p {
+    text-align: center;
+    color: #fff;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.containerHomeImgPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgHome {
+    width: 90%;
+    box-shadow: 6px 5px 5px 1px rgb(128, 128, 128);
+    margin-bottom: 3vw;
+}
+
+.imgHome:hover {
+    animation-duration: 1s;
+    animation-name: zoomImgPrincipal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoomImgPrincipal {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+
+}
+
+.textHome::after {
+    content: "";
+    display: table;
+    clear: both;
+    font-family: helvetica;
+}
+
+.containerTextHome {
+    text-align: justify;
+    margin-right: 50PX;
+    color: #000;
+    font-size: 1rem;
+    font-family: helvetica;
+}
+
+.containerTitlefundadoraTrue {
+    text-align: start;
+}
+
+.homeDivExtra {
+    margin-bottom: 2vw;
+    text-align: center;
+    background-color: rgb(108, 16, 16);
+    box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
+    padding: 14px;
+    color: #fff;
+    font-family: helvetica;
+}
+
+.homeDivExtra p {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.homeDivExtra h2 {
+    color: #fff;
+}

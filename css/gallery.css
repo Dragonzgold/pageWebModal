@@ -1,0 +1,120 @@
+body {
+    background-color: #000;
+}
+
+.containerAllImage {
+    background-color: #fff;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgBlack {
+    height: 25vw;
+    flex-grow: 1;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.imgBlack:hover,
+.imgFrances:hover,
+.imgSkinCare:hover,
+.imgNailTechnology:hover,
+.imgStudentGallery:hover {
+    cursor: crosshair;
+    width: 300px;
+    height: 450px;
+    opacity: 1;
+}
+
+.imgSkinCare {
+    height: 25vw;
+    flex-grow: 1;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.container .imgRed {
+    background: linear-gradient(rgba(0, 0, 0, 0.643), rgba(0, 0, 0, 0.175)), url(../img/aboutCenter4.jpg);
+    width: 80vw;
+}
+
+.imgFrances {
+    height: 25vw;
+    flex-grow: 1;
+    opacity: 0.8;
+    transition: 1s;
+}
+
+.imgNailTechnology {
+    height: 25vw;
+    flex-grow: 1;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.imgStudentGallery {
+    height: 25vw;
+    flex-grow: 1;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+img {
+    border: 2px solid #fff;
+}
+
+.btnTwitter:hover {
+    background-color: #000;
+    color: aqua;
+}
+
+.btnFacebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btnYoutube:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.cuadroDropdown a {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.631);
+    color: #fff;
+}
+
+.cuadroDropdown {
+    background: linear-gradient(to right, #0000001e, #ffffffa3);
+}
+
+.reservation,
+.page-header,
+.offer,
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.643), rgba(0, 0, 0, 0.68)), url(../img/GalleryImage/footerGallery3.jpg);
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}

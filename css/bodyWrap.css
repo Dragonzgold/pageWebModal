@@ -1,0 +1,147 @@
+* {
+    font-family: Helvetica;
+}
+
+.navbarMicro {
+    text-decoration: aqua;
+    color: aqua;
+}
+
+.imageBackgroundMicro {
+    background-image: url(../img/bodyWrapBack.gif);
+    background-attachment: fixed;
+
+    background-size: cover;
+    padding: 5%
+}
+
+.squareBack {
+    width: 100%;
+    background-color: rgba(46, 93, 38, 0.406);
+}
+
+.reservation,
+.page-header-prueba,
+.offer,
+.footer {
+    background: linear-gradient(rgb(135, 169, 34), rgba(255, 255, 255, 0.751));
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleFunda {
+    margin-bottom: 3rem;
+    color: #fff;
+    font-family: Helvetica;
+}
+
+.containerTitlemicro1 {
+    text-align: center;
+}
+
+.containerAll {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conatinerBackExtra {
+    display: flex;
+    justify-content: center;
+    width: 28%;
+    padding: 1vw;
+}
+
+.bodyWrap h3 {
+    background-color: rgb(135, 169, 34);
+    color: #000;
+    width: 12.5vw;
+    font-size: 2.5vw;
+    font-family: helvetica;
+}
+
+.bodyWrap li {
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+}
+
+.containerLenght h3 {
+    background-color: rgb(135, 169, 34);
+    color: #000;
+    width: 8vw;
+    font-size: 2.5vw;
+    font-family: helvetica;
+}
+
+.containerSchedule h3 {
+    background-color: rgb(135, 169, 34);
+    color: #000;
+    width: 11vw;
+    font-size: 2.5vw;
+    font-family: helvetica;
+}
+
+.LengthHours p {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.containerInfoSchedule li,
+p {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.BilingualClasses h3 {
+    background-color: rgb(135, 169, 34);
+    color: #000;
+    width: 19.5vw;
+    font-size: 2.5vw;
+    font-family: helvetica;
+}
+
+.BilingualClasses p {
+    margin: 0;
+    font-family: helvetica;
+}
+
+.btnTwitter:hover {
+    background-color: #000;
+    color: aqua;
+}
+
+.btnFacebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btnYoutube:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.cuadroDropdown a {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.631);
+    color: #fff;
+}
+
+.cuadroDropdown {
+    background: linear-gradient(to right, #0000001e, #ffffffa3);
+}

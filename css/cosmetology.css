@@ -1,0 +1,298 @@
+* {
+    font-family: Helvetica;
+}
+
+.navbarMicro {
+    text-decoration: aqua;
+    color: aqua;
+}
+
+.imageBackgroundMicro {
+    background-image: url(../img/cosmetologyBack3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 5%
+}
+
+.squareBack {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.321);
+}
+
+.reservation,
+.page-header-prueba,
+.offer,
+.footer {
+    background: linear-gradient(rgb(95, 7, 154), rgba(59, 49, 49, 0.585));
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleFunda {
+    margin-bottom: 3rem;
+    color: #fff;
+    font-family: Helvetica;
+}
+
+.containerTitlemicro1 {
+    text-align: center;
+}
+
+.containerAll {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conatinerBackExtra {
+    display: flex;
+    justify-content: center;
+    width: 28%;
+    padding: 1vw;
+}
+
+.hair h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    width: 5vw;
+    font-size: 2.5vw;
+}
+
+.hair li {
+    color: #fff;
+}
+
+.hair .lastLi {
+    margin-bottom: 2vw;
+}
+
+.HairExtensions h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    width: 15.5vw;
+    font-size: 2.2vw;
+}
+
+.HairExtensions li {
+    color: #fff;
+}
+
+.HairExtensions .lastLi {
+    margin-bottom: 2vw;
+}
+
+.HairExtensions p {
+    color: #fff;
+}
+
+.skinCare h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    width: 30%;
+}
+
+.skinCare li {
+    color: #fff;
+}
+
+.skinCare .lastLi {
+    margin-bottom: 2vw;
+}
+
+.makeup h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    font-size: 2.5vw;
+    width: 9vw;
+}
+
+.makeup li {
+    color: #fff;
+}
+
+.makeup .lastLi {
+    margin-bottom: 2vw;
+}
+
+.nails h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    font-size: 2.5vw;
+    width: 6vw;
+}
+
+.nails li {
+    color: #fff;
+}
+
+.nails .lastLi {
+    margin-bottom: 2vw;
+}
+
+.salonSpa h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+    width: 24vw;
+}
+
+.floridaLaw h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+    width: 22.5vw;
+}
+
+.financialAvailable h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    font-size: 2vw;
+    width: 20.5vw;
+}
+
+.financialAvailable p {
+    color: #fff;
+    margin: 0;
+}
+
+.financialAvailable .lastP {
+    margin-bottom: 2vw;
+}
+
+.FloridaCosmetology h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    font-size: 2.1vw;
+    width: 27.5vw;
+}
+
+.FloridaCosmetology p {
+    color: #fff;
+    margin: 0;
+}
+
+.containerLenght h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    margin-bottom: 2vw;
+    width: 8vw;
+    font-size: 2.5vw;
+}
+
+.containerSchedule h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    margin-bottom: 2vw;
+    font-size: 2.5vw;
+    width: 10.5vw;
+}
+
+.LengthHours p {
+    color: #fff;
+}
+
+.containerInfoSchedule h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    font-size: 2.5vw;
+    width: 18vw;
+}
+
+.containerInfoSchedule p,
+li {
+    color: #fff;
+}
+
+.registrationRequirement h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    font-size: 2vw;
+    width: 22.5vw;
+}
+
+.registrationRequirement p {
+    color: #fff;
+}
+
+.ASMSchool h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    font-size: 1.8vw;
+    width: 22vw;
+}
+
+.ASMSchool p {
+    color: #fff;
+}
+
+.JobPlacementAvailable h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+    width: 22.5vw;
+}
+
+.DayCare h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    margin-bottom: 2vw;
+    font-size: 2.5vw;
+    width: 21vw;
+}
+
+.BilingualClasses h3 {
+    background-color: rgb(95, 7, 154);
+    color: #fff;
+    font-size: 2.5vw;
+    width: 19.5vw;
+}
+
+.BilingualClasses p {
+    color: #fff;
+    margin: 0;
+}
+
+.btnTwitter:hover {
+    background-color: #000;
+    color: aqua;
+}
+
+.btnFacebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btnYoutube:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.cuadroDropdown a {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.631);
+    color: #fff;
+}
+
+.cuadroDropdown {
+    background: linear-gradient(to right, #0000001e, #ffffffa3);
+}

@@ -1,0 +1,140 @@
+.titlePrincipalHomologation h1 {
+    color: #fff;
+}
+
+.containerTitlePrincipal {
+    text-align: center;
+    background-color: rgb(108, 16, 16);
+    box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
+    padding: 20px;
+    font-family: helvetica;
+}
+
+.containerTitlePrincipal h2 {
+    color: #fff;
+    text-align: center;
+    font-family: helvetica;
+}
+
+.containerTextHomologation p {
+    margin-top: 2vw;
+    text-align: justify;
+    color: black;
+    font-size: 1.5vw;
+    font-family: helvetica;
+}
+
+.containerTextHomologation ul {
+    margin-bottom: 2vw;
+    text-align: justify;
+    color: black;
+    font-size: 1.5vw;
+    font-family: helvetica;
+}
+
+.containerRequeriment h3 {
+    text-align: center;
+    background-color: rgb(108, 16, 16);
+    box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
+    font-family: helvetica;
+    width: 15vw;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.containerRequeriment ol {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-align: justify;
+    color: black;
+    font-size: 1.5vw;
+    font-family: helvetica;
+}
+
+.containerProcedure h3 {
+    text-align: center;
+    background-color: rgb(108, 16, 16);
+    box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
+    font-family: helvetica;
+    width: 12vw;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.containerProcedure ol {
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-align: justify;
+    color: black;
+    font-size: 1.5vw;
+    font-family: helvetica;
+}
+
+.containerMoreInformation h2 {
+    text-align: center;
+    background-color: rgb(108, 16, 16);
+    box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
+    font-family: helvetica;
+    width: 35vw;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.containerMoreInformation p {
+    margin-top: 2vw;
+    text-align: justify;
+    color: black;
+    font-size: 1.5vw;
+    font-family: helvetica;
+}
+
+.reservation,
+.page-header,
+.offer,
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.643), rgba(0, 0, 0, 0.68)), url(../img/homologationBack2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.btnTwitter:hover {
+    background-color: #000;
+    color: aqua;
+}
+
+.btnFacebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btnYoutube:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.cuadroDropdown a {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.631);
+    color: #fff;
+}
+
+.cuadroDropdown {
+    background: linear-gradient(to right, #0000001e, #ffffffa3);
+}

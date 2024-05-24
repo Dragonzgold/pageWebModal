@@ -1,0 +1,511 @@
+.containerTitleEducation {
+  background-color: rgb(108, 16, 16);
+  box-shadow: -8px 8px 5px 1px rgb(128, 128, 128);
+  margin-bottom: 3vw;
+}
+
+.titleEducation {
+  font-size: 3.5vw;
+  color: #fff;
+  text-align: center;
+}
+
+.containerAll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square1 {
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom-color: black;
+  border-right-color: chocolate;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  /* Crea una sombra difuminada gris */
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+.square1:hover {
+  cursor: crosshair;
+  height: 50%;
+  opacity: 1;
+  filter: contrast(120%);
+  animation-duration: 1s;
+  animation-name: test;
+}
+
+@keyframes test {
+  from {
+    height: 20%;
+  }
+
+  to {
+    height: 50%;
+  }
+}
+
+.square1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(/img/cosmetologyEducation5.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+
+.cosmetologyEducation h4 {
+  color: #fff;
+}
+
+.cosmetologyEducation p {
+  color: #fff;
+  text-align: justify;
+}
+
+.square2 {
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom-color: black;
+  border-right-color: chocolate;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  /* Crea una sombra difuminada gris */
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+.square2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/Skinker.jpg);
+  background-position: right;
+  background-size: cover;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.square2:hover {
+  cursor: crosshair;
+  height: 50%;
+  opacity: 1;
+  filter: contrast(120%);
+  animation-duration: 1s;
+  animation-name: test;
+}
+
+.square2 p {
+  color: aqua;
+  text-align: justify;
+}
+
+.skincareEducation p {
+  color: #fff;
+  text-align: justify;
+}
+
+.skincareEducation h4 {
+  color: #fff;
+}
+
+.square3 {
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom-color: black;
+  border-right-color: chocolate;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  /* Crea una sombra difuminada gris */
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+.square3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/MakeupArtistry.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.square3:hover {
+  cursor: crosshair;
+  height: 50%;
+  opacity: 1;
+  filter: contrast(120%);
+  animation-duration: 1s;
+  animation-name: test;
+}
+
+.square3 p {
+  color: aqua;
+  text-align: justify;
+}
+
+.advancedMakeupEducation h4 {
+  color: #fff;
+}
+
+.advancedMakeupEducation p {
+  color: #fff;
+}
+
+.square4 {
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom-color: black;
+  border-right-color: chocolate;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  /* Crea una sombra difuminada gris */
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+.square4::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/barber.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.square4:hover {
+  cursor: crosshair;
+  height: 50%;
+  opacity: 1;
+  filter: contrast(120%);
+  animation-duration: 1s;
+  animation-name: test;
+}
+
+.square4 p {
+  color: #fff;
+  text-align: justify;
+}
+
+.square4 h4 {
+  color: #fff;
+}
+
+.square5 {
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-bottom-color: black;
+  border-right-color: chocolate;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  /* Crea una sombra difuminada gris */
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+.square5::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/bodyWrap.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.square5:hover {
+  cursor: crosshair;
+  height: 50%;
+  opacity: 1;
+  filter: contrast(120%);
+  animation-duration: 1s;
+  animation-name: test;
+}
+
+.square5 p {
+  color: #fff;
+  text-align: justify;
+}
+
+.square5 h4 {
+  color: #fff;
+}
+
+.square6 {
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  border-bottom-color: black;
+  border-left-color: chocolate;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+.square6::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/Cosmetology.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.square6:hover {
+  cursor: crosshair;
+  height: 50%;
+  opacity: 1;
+  filter: contrast(120%);
+  animation-duration: 1s;
+  animation-name: test;
+}
+
+.square6 p {
+  color: #fff;
+  text-align: justify;
+}
+
+.square6 h4 {
+  color: #fff;
+}
+
+.square7 {
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  border-bottom-color: black;
+  border-left-color: chocolate;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+.square7::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/microblading2.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.square7:hover {
+  cursor: crosshair;
+  height: 50%;
+  opacity: 1;
+  filter: contrast(120%);
+  animation-duration: 1s;
+  animation-name: test;
+}
+
+.square7 p {
+  color: #fff;
+  text-align: justify;
+}
+
+.square7 h4 {
+  color: #fff;
+}
+
+.square8 {
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  border-bottom-color: black;
+  border-left-color: chocolate;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+.square8::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/nailTechnology.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.square8:hover {
+  cursor: crosshair;
+  height: 50%;
+  opacity: 1;
+  filter: contrast(120%);
+  animation-duration: 1s;
+  animation-name: test;
+}
+
+.square8 p {
+  color: #fff;
+  text-align: justify;
+}
+
+.square8 h4 {
+  color: #fff;
+}
+
+.square9 {
+  text-align: center;
+  border-width: 3px;
+  border-style: solid;
+  border-bottom-color: black;
+  border-left-color: chocolate;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+}
+
+.square9::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/permanentMakeup.jpg);
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.5);
+  z-index: -1;
+}
+
+.square9:hover {
+  cursor: crosshair;
+  height: 50%;
+  opacity: 1;
+  filter: contrast(120%);
+  animation-duration: 1s;
+  animation-name: test;
+}
+
+.square9 p {
+  color: #fff;
+  text-align: justify;
+}
+
+.square9 h4 {
+  color: #fff;
+}
+
+.footer {
+  margin-top: 29vw;
+}
+
+.reservation,
+.page-header,
+.offer,
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.643), rgba(0, 0, 0, 0.62)), url(../img/footerEducation7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.btnTwitter:hover {
+  background-color: #000;
+  color: aqua;
+}
+
+.btnFacebook:hover {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.btnYoutube:hover {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+}
+
+.btnInstagram:hover {
+  background-color: #3F529B;
+  background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+  color: aliceblue;
+}
+
+.btnInstagram:hover {
+  background-color: #3F529B;
+  background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+  color: aliceblue;
+}
+
+.cuadroDropdown a {
+  color: #fff;
+  font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+  background-color: rgba(0, 0, 0, 0.631);
+  color: #fff;
+}
+
+.cuadroDropdown {
+  background: linear-gradient(to right, #0000001e, #ffffffa3);
+}

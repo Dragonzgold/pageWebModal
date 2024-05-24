@@ -1,0 +1,287 @@
+body {
+    background-color: #fff;
+}
+
+.titleInicioSobreNosotros {
+    text-align: center;
+    background-color: rgb(108, 16, 16);
+    box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
+    padding: 20px;
+    color: #fff;
+    font-family: helvetica;
+}
+
+.titlePrincipal h1 {
+    color: #fff;
+}
+
+.sobreNosotrosDiv {
+    display: block;
+    position: relative;
+}
+
+.sobreNosotrosDiv h3 {
+    text-align: center;
+}
+
+.sobreNosotrosDiv p {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+/* Apartado de mision y vision */
+
+.containerMIV {
+    margin-top: 2.5vw;
+    margin-bottom: 2.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.containerMIV .containerMission {
+    background-color: rgb(108, 16, 16);
+    box-shadow: -8px 8px 5px 1px rgb(128, 128, 128);
+    margin: 0;
+    max-width: 500px;
+    padding: 2vw;
+}
+
+.containerMission:hover {
+    animation-name: aboutAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes aboutAnimation {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.3);
+    }
+
+    /* Cambia al color de fondo al pasar el mouse que deseas */
+}
+
+.containerMission h3 {
+    text-align: justify;
+    color: #fff;
+}
+
+.containerMission p {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.containerMIV .containerVision {
+    background-color: rgb(0, 0, 0);
+    box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
+    margin: 0;
+    max-width: 500px;
+    padding: 2vw;
+}
+
+.containerVision:hover {
+    animation-name: aboutAnimation;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+.containerVision h3 {
+    color: #fff;
+    text-align: justify;
+}
+
+.containerVision p {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.imgPrueba {
+    width: 40vw;
+    height: 60vh;
+}
+
+/* Imagen del centro */
+
+.imgPrueba {
+    background: linear-gradient(rgba(0, 0, 0, 0.643), rgba(0, 0, 0, 0.175)), url(../img/fondoAbout1.jpg);
+    width: 90vw;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px -2px 25px rgba(255, 255, 255, 0.502);
+}
+
+.imgPrueba:hover {
+    animation-name: imgAboutZoom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background: url(/img/fondoAbout1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes imgAboutZoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+
+}
+
+/* Apartado sobre el fundador */
+
+.titleFundador {
+    margin-bottom: 2rem;
+    font-family: helvetica;
+    color: #000;
+}
+
+.containerFundadorExt {
+    background-color: rgb(0, 0, 0);
+    padding: 2vw;
+    font-family: helvetica;
+    box-shadow: -8px 8px 5px 1px rgb(128, 128, 128);
+}
+
+.containerFundador {
+    background-color: #fff;
+    margin-top: 130px;
+    height: 35px;
+    text-align: end;
+}
+
+.containerText {
+    text-align: justify;
+    margin-right: 50PX;
+    color: #ffffff;
+    font-family: helvetica;
+}
+
+.imagFundador {
+    width: 12rem;
+    float: right;
+    margin-left: 20PX;
+    box-shadow: 3px -2px 25px rgba(255, 255, 255, 0.502);
+}
+
+.containerTitlefundadorTrue {
+    text-align: start;
+}
+
+.TitleFundadorTrue {
+    color: #fff;
+    margin-right: 2.5vw;
+}
+
+/* Apartado de la presidenta  */
+
+.containerFundadora {
+    background-color: rgb(108, 16, 16);
+    padding: 2vw;
+    font-family: helvetica;
+    box-shadow: 4px -3px 5px 1px rgb(128, 128, 128);
+
+}
+
+.titleFundadora {
+    margin-bottom: 2rem;
+    font-family: helvetica;
+}
+
+.imagFundadora {
+    width: 15rem;
+    float: right;
+    margin-left: 20PX;
+    box-shadow: 3px -2px 25px rgba(255, 255, 255, 0.502);
+}
+
+.textFundadora::after {
+    content: "";
+    display: table;
+    clear: both;
+    font-family: helvetica;
+}
+
+.containerTextPresidenta {
+    text-align: justify;
+    margin-right: 50PX;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: helvetica;
+}
+
+.containerFundadoraWhite {
+    margin-top: 50px;
+    background-color: #fff;
+    height: 35px;
+    text-align: end;
+}
+
+.containerTitlefundadoraTrue {
+    text-align: start;
+}
+
+.TitlePresidentaTrue {
+    color: #fff;
+}
+
+.reservation,
+.page-header,
+.offer,
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.643), rgba(0, 0, 0, 0.68)), url(../img/footerAboutBack4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.btnTwitter:hover {
+    background-color: #000;
+    color: aqua;
+}
+
+.btnFacebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btnYoutube:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.cuadroDropdown a {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.631);
+    color: #fff;
+}
+
+.cuadroDropdown {
+    background: linear-gradient(to right, #0000001e, #ffffffa3);
+}

@@ -1,0 +1,93 @@
+.container h1 {
+    position: relative;
+    margin: 0 auto;
+}
+
+.containerIcon {
+    color: red;
+}
+
+.containerDireccion h4 {
+    color: black;
+    font-family: helvetica;
+}
+
+.containerDireccion p {
+    color: black;
+    font-family: helvetica;
+}
+
+.containerWhatsapp i {
+    color: green;
+}
+
+.containerWhatsapp h4 {
+    color: black;
+    font-family: helvetica;
+}
+
+.containerEmail i {
+    color: red;
+}
+
+.containerEmail h4 {
+    color: black;
+    font-family: helvetica;
+}
+
+.containerEmail p {
+    color: black;
+    font-family: helvetica;
+}
+
+.btnTwitter:hover {
+    background-color: #000;
+    color: aqua;
+}
+
+.btnFacebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btnYoutube:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.reservation,
+.page-header,
+.offer,
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.643), rgba(0, 0, 0, 0.68)), url(../img/footerContact2.jpg);
+    padding: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.cuadroDropdown a {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.631);
+    color: #fff;
+}
+
+.cuadroDropdown {
+    background: linear-gradient(to right, #0000001e, #ffffffa3);
+}

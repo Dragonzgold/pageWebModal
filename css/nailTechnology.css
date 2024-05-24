@@ -1,0 +1,214 @@
+* {
+    font-family: Helvetica;
+}
+
+.navbarMicro {
+    text-decoration: aqua;
+    color: aqua;
+}
+
+.imageBackgroundMicro {
+    background-image: url(../img/nailTechBack.jpg);
+    background-attachment: fixed;
+
+    background-size: cover;
+    padding: 5%
+}
+
+.squareBack {
+    width: 100%;
+    background-color: rgba(43, 139, 129, 0.309);
+}
+
+.reservation,
+.page-header-prueba,
+.offer,
+.footer {
+    background: linear-gradient(rgb(193, 157, 12), rgba(255, 255, 255, 0.751));
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleFunda {
+    margin-bottom: 3rem;
+    color: #fff;
+    font-family: Helvetica;
+}
+
+.containerTitlemicro1 {
+    text-align: center;
+}
+
+.containerAll {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conatinerBackExtra {
+    display: flex;
+    justify-content: center;
+    width: 28%;
+    padding: 1vw;
+}
+
+.nailTechnology h3 {
+    background-color: #28edff;
+    width: 18vw;
+    font-size: 2.5vw;
+    font-family: helvetica;
+}
+
+.nailTechnology li {
+    color: #fff;
+}
+
+.floridaLaw h3 {
+    margin-top: 2vw;
+    background-color: #28edff;
+    width: 13vw;
+    font-size: 2.5vw;
+    font-family: helvetica;
+}
+
+.salonSpa h3 {
+    margin-top: 2vw;
+    background-color: #28edff;
+    width: 24vw;
+    font-size: 2vw;
+    font-family: helvetica;
+}
+
+.ASMScholarship h3 {
+    margin-top: 2vw;
+    background-color: #28edff;
+    width: 15.5vw;
+    font-size: 2vw;
+    font-family: helvetica;
+}
+
+.ASMScholarship p {
+    color: #fff;
+}
+
+.floridaNail h3 {
+    background-color: #28edff;
+    width: 28.5vw;
+    font-size: 1.6vw;
+    font-family: helvetica;
+}
+
+.floridaNail p {
+    color: #fff;
+    margin: 0;
+    font-family: helvetica;
+}
+
+.containerLeght h3 {
+    background-color: #28edff;
+    width: 8vw;
+    font-size: 2.5vw;
+    font-family: helvetica;
+}
+
+.containerSchedule h3 {
+    background-color: #28edff;
+    width: 10.5vw;
+    font-size: 2.5vw;
+    font-family: helvetica;
+}
+
+.LengthHours p {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.containerInfoSchedule p,
+li {
+    color: #fff;
+    margin: 0;
+    font-family: helvetica;
+}
+
+.registrationRequirement h3 {
+    margin-top: 2vw;
+    background-color: #28edff;
+    font-family: helvetica;
+    width: 23vw;
+    font-size: 2vw;
+}
+
+.privateFinancing h3 {
+    margin-top: 2vw;
+    background-color: #28edff;
+    font-family: helvetica;
+    width: 24vw;
+    font-size: 2vw;
+}
+
+.BilingualClasses h3 {
+    margin-top: 2vw;
+    background-color: #28edff;
+    font-family: helvetica;
+    width: 15.5vw;
+    font-size: 2vw;
+}
+
+.BilingualClasses p {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.JobPlacementAvailable h3 {
+    margin-top: 2vw;
+    background-color: #28edff;
+    font-family: helvetica;
+    width: 22vw;
+    font-size: 2vw;
+}
+
+.JobPlacementAvailable p {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.btnTwitter:hover {
+    background-color: #000;
+    color: aqua;
+}
+
+.btnFacebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btnYoutube:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.cuadroDropdown a {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.631);
+    color: #fff;
+}
+
+.cuadroDropdown {
+    background: linear-gradient(to right, #0000001e, #ffffffa3);
+}

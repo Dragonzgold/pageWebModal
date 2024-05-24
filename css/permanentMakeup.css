@@ -1,0 +1,306 @@
+* {
+    font-family: Helvetica;
+}
+
+.navbarMicro {
+    text-decoration: aqua;
+    color: aqua;
+}
+
+.imageBackgroundMicro {
+    background-image: url(../img/permanentMakeupBack.jpg);
+    background-attachment: fixed;
+
+    background-size: cover;
+    padding: 5%
+}
+
+.squareBack {
+    width: 100%;
+    background-color: rgba(30, 30, 30, 0.5);
+}
+
+.reservation,
+.page-header-prueba,
+.offer,
+.footer {
+    background: linear-gradient(rgb(159, 1, 1), rgb(0, 0, 0));
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleFunda {
+    margin-bottom: 3rem;
+    color: #fff;
+    font-family: Helvetica;
+}
+
+.containerTitlemicro1 {
+    text-align: center;
+}
+
+.containerAll {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conatinerBackExtra {
+    display: flex;
+    justify-content: center;
+    width: 28%;
+    padding: 1vw;
+}
+
+.fundamentals h3 {
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+    width: 16vw;
+    font-family: helvetica;
+    font-size: 2.5vw;
+}
+
+.fundamentals li {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.colorPigment h3 {
+    margin-top: 2vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+    width: 19vw;
+    font-family: helvetica;
+    font-size: 2.5vw;
+}
+
+.colorPigment li {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.skinAnatomy h3 {
+    margin-top: 2vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+    width: 15.5vw;
+    font-family: helvetica;
+    font-size: 2.5vw;
+}
+
+.skinAnatomy li {
+    color: #fff;
+    font-family: helvetica;
+}
+
+
+.designShape h3 {
+    margin-top: 2vw;
+    width: 18.5vw;
+    font-family: helvetica;
+    font-size: 2.5vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.designShape li {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.machinesToolsProducts h3 {
+    margin-top: 2vw;
+    width: 25vw;
+    font-family: helvetica;
+    font-size: 2vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.machinesToolsProducts li {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.application h3 {
+    margin-top: 2vw;
+    width: 10.3vw;
+    font-family: helvetica;
+    font-size: 2vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.application li {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.clientPrePost h3 {
+    margin-top: 2vw;
+    width: 23.5vw;
+    font-family: helvetica;
+    font-size: 2vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.clientPrePost li {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.BusinessLaws h3 {
+    margin-top: 2vw;
+    width: 15.5vw;
+    font-family: helvetica;
+    font-size: 2vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.BusinessLaws li {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.containerLenght h3 {
+    width: 8vw;
+    font-family: helvetica;
+    font-size: 2.5vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.containerSchedule h3 {
+    width: 10.5vw;
+    font-family: helvetica;
+    font-size: 2.5vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.LengthHours p {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.containerInfoSchedule li,
+p {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.registrationRequirement h3 {
+    width: 23vw;
+    font-family: helvetica;
+    font-size: 2vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.registrationRequirement li {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.Kit h3 {
+    width: 2.5vw;
+    font-family: helvetica;
+    margin-top: 2vw;
+    font-size: 2vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.Kit li {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.JobPlacementAvailable h3 {
+    width: 22vw;
+    font-family: helvetica;
+    margin-top: 2vw;
+    font-size: 2vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.BilingualClasses h3 {
+    width: 15.5vw;
+    font-family: helvetica;
+    margin-top: 2vw;
+    font-size: 2vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.BilingualClasses p {
+    margin: 0;
+    font-family: helvetica;
+}
+
+.containerApproved h3 {
+    width: 25vw;
+    font-family: helvetica;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.floridaLicense h3 {
+    width: 14vw;
+    font-family: helvetica;
+    margin-top: 2vw;
+    font-size: 2vw;
+    background-color: rgb(159, 1, 1);
+    color: #fff;
+}
+
+.floridaLicense p {
+    margin: 0;
+    font-family: helvetica;
+}
+
+.btnTwitter:hover {
+    background-color: #000;
+    color: aqua;
+}
+
+.btnFacebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btnYoutube:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.cuadroDropdown a {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.631);
+    color: #fff;
+}
+
+.cuadroDropdown {
+    background: linear-gradient(to right, #0000001e, #ffffffa3);
+}

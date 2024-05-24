@@ -1,0 +1,265 @@
+* {
+    font-family: Helvetica;
+}
+
+.navbarMicro {
+    text-decoration: aqua;
+    color: aqua;
+}
+
+.imageBackgroundMicro {
+    background-image: url(../img/fullSpecialistBack2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 5%
+}
+
+.squareBack {
+    width: 100%;
+    background-color: rgba(236, 236, 236, 0.309);
+}
+
+.reservation,
+.page-header-prueba,
+.offer,
+.footer {
+    background: linear-gradient(rgb(78, 51, 0), rgba(185, 147, 90, 0.751));
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleFunda {
+    margin-bottom: 3rem;
+    color: #fff;
+    font-family: Helvetica;
+}
+
+.containerTitlemicro1 {
+    text-align: center;
+}
+
+.containerAll {
+    display: flex;
+    justify-content: space-around;
+}
+
+.conatinerBackExtra {
+    display: flex;
+    justify-content: center;
+    width: 28%;
+    padding: 1vw;
+}
+
+.nails h3 {
+    background-color: #fff;
+    width: 6vw;
+    font-size: 2.5vw;
+}
+
+.nails li {
+    color: #000;
+    font-family: helvetica;
+}
+
+.nails .lastLi {
+    margin-bottom: 2vw;
+}
+
+.skinCare h3 {
+    background-color: #fff;
+    color: #000;
+    width: 11vw;
+    font-size: 2.5vw;
+    font-family: helvetica;
+}
+
+.skinCare p,
+li {
+    color: #000;
+    margin: 0%;
+    font-family: helvetica;
+}
+
+.skinCare .lastLi {
+    margin-bottom: 2vw;
+}
+
+.makeup h3 {
+    background-color: #fff;
+    color: #000;
+    width: 9vw;
+    font-size: 2.5vw;
+    font-family: helvetica;
+}
+
+.salonSPA h3 {
+    margin-top: 2vw;
+    background-color: #fff;
+    color: #000;
+    font-size: 2vw;
+    width: 24.5vw;
+    font-family: helvetica;
+}
+
+.floridaLaws h3 {
+    margin-top: 2vw;
+    background-color: #fff;
+    font-family: helvetica;
+    color: #000;
+    font-size: 2vw;
+    width: 19.5vw;
+}
+
+.containerLenght h3 {
+    color: #000;
+    background-color: #fff;
+    font-family: helvetica;
+    font-size: 2.5vw;
+    width: 8vw;
+}
+
+.LengthHours p {
+    color: #000;
+    font-family: helvetica;
+}
+
+.containerSchedule h3 {
+    background-color: #fff;
+    color: #000;
+    font-family: helvetica;
+    font-size: 2.5vw;
+    width: 11vw;
+}
+
+.containerInfoSchedule li,
+p {
+    color: #000;
+}
+
+.registrationRequirement h3 {
+    margin-top: 2vw;
+    background-color: #fff;
+    color: #000;
+    font-family: helvetica;
+    width: 20vw;
+    font-size: 1.7vw;
+}
+
+.registrationRequirement li {
+    font-family: helvetica;
+}
+
+.ASMSchool h3 {
+    margin-top: 2vw;
+    background-color: #fff;
+    color: #000;
+    font-family: helvetica;
+    font-size: 1.8vw;
+    width: 22vw;
+}
+
+.ASMSchool p {
+    font-family: helvetica;
+}
+
+.FinancialAidAvailable h3 {
+    margin-top: 2vw;
+    background-color: #fff;
+    color: #000;
+    font-family: helvetica;
+    width: 19vw;
+    font-size: 1.9vw;
+}
+
+.FinancialAidAvailable p {
+    margin: 0;
+    font-family: helvetica;
+}
+
+.JobPlacementAvailable h3 {
+    margin-top: 2vw;
+    color: #000;
+    background-color: #fff;
+    width: 20vw;
+    font-family: helvetica;
+    font-size: 1.8vw;
+}
+
+.DayCare h3 {
+    margin-top: 2vw;
+    background-color: #fff;
+    color: #000;
+    width: 20vw;
+    font-size: 2.4vw;
+}
+
+.BilingualClasses h3 {
+    margin-top: 2vw;
+    color: #000;
+    background-color: #fff;
+    width: 19.5vw;
+    font-family: helvetica;
+    font-size: 2.5vw;
+}
+
+.BilingualClasses p {
+    margin: 0;
+    font-family: helvetica;
+}
+
+.floridaSpecialist h3 {
+    margin-top: 2vw;
+    color: #000;
+    width: 21.5vw;
+    background-color: #fff;
+    font-family: helvetica;
+    font-size: 1.6vw;
+}
+
+.floridaSpecialist p {
+    margin: 0;
+    font-family: helvetica;
+}
+
+.btnTwitter:hover {
+    background-color: #000;
+    color: aqua;
+}
+
+.btnFacebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btnYoutube:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.cuadroDropdown a {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.631);
+    color: #fff;
+}
+
+.cuadroDropdown {
+    background: linear-gradient(to right, #0000001e, #ffffffa3);
+}

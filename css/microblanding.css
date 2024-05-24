@@ -1,0 +1,320 @@
+.navbarMicro {
+    text-decoration: aqua;
+    color: aqua;
+}
+
+.imageBackgroundMicro {
+    background-image: url(../img/microbladinBack3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 5%;
+}
+
+.squareBack {
+    width: 100%;
+    background-color: rgba(30, 30, 30, 0.5);
+}
+
+.reservation,
+.page-header-prueba,
+.offer,
+.footer {
+    background: linear-gradient(rgb(23, 45, 226), rgb(0, 0, 0));
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleFunda {
+    margin-bottom: 3rem;
+    color: #fff;
+}
+
+.containerTitlemicro1 {
+    text-align: center;
+}
+
+.conatinerBoxExt {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+    box-shadow: 2px 1px 15px 10px rgba(112, 112, 112, 0.3);
+}
+
+.textMicro {
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #fff;
+}
+
+.containerAll {
+    display: flex;
+    justify-content: space-around;
+}
+
+.serviceMicrobladingExt {
+    width: 35%;
+    border-radius: 10%;
+    padding: 3vw;
+}
+
+.serviceMicrobladingInt h3 {
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    font-family: helvetica;
+    width: 20.5vw;
+    font-size: 2.5vw;
+}
+
+.li1 {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.serviceMicrobladingText {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.serviceMicrobladingColorBack {
+    color: #fff;
+}
+
+.serviceMicrobladingColorInt h3 {
+    margin-top: 2vw;
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    width: 18.5vw;
+    font-family: helvetica;
+    font-size: 2.5vw;
+}
+
+.serviceMicrobladingColorInt li {
+    font-family: helvetica;
+}
+
+.serviceMicrobladingSkinInt h3 {
+    margin-top: 2vw;
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    font-family: helvetica;
+    width: 15.5vw;
+    font-size: 2.5vw;
+}
+
+.serviceMicrobladingSkinInt li {
+    font-family: helvetica;
+}
+
+.serviceBusiness h3 {
+    margin-top: 2vw;
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    font-family: helvetica;
+    width: 15.5vw;
+    font-size: 2vw;
+}
+
+.serviceBusiness li {
+    font-family: helvetica;
+}
+
+.serviceToolsProduct h3 {
+    margin-top: 2vw;
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    font-family: helvetica;
+    width: 19vw;
+    font-size: 2.5vw;
+}
+
+.serviceToolsProduct li {
+    font-family: helvetica;
+}
+
+.serviceDesignShape h3 {
+    margin-top: 2vw;
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    font-family: helvetica;
+    width: 18.5vw;
+    font-size: 2.5vw;
+}
+
+.serviceDesignShape li {
+    font-family: helvetica;
+}
+
+.serviceMicrobladingApp h3 {
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    margin-top: 2vw;
+    width: 12.5vw;
+    font-family: helvetica;
+    font-size: 2.5vw;
+}
+
+.serviceMicrobladingApp li {
+    font-family: helvetica;
+}
+
+.serviceMicrobladingPre h3 {
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    margin-top: 2vw;
+    width: 19vw;
+    font-family: helvetica;
+    font-size: 1.5vw;
+}
+
+.conatinerBackExtra {
+    display: flex;
+    justify-content: center;
+    width: 28%;
+    padding: 1vw;
+}
+
+.containerFrontExtra {
+    width: 100%;
+    border-radius: 15%;
+    padding-bottom: 2vw;
+}
+
+.containerSchedule {
+    margin-top: 2vw;
+}
+
+.containerSchedule h3 {
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    width: 10.5vw;
+    font-family: helvetica;
+    font-size: 2.5vw;
+}
+
+.containerSchedule p {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.listWeekdays {
+    margin-bottom: 1vw;
+    font-weight: bold;
+    color: #fff;
+}
+
+.containerInfoSchedule p {
+    margin: 0;
+    color: #fff;
+    font-family: helvetica;
+}
+
+.listWeekends {
+    font-weight: bold;
+    font-family: helvetica;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    color: #fff;
+}
+
+.conatinerRequerimentMicro h3 {
+    margin-top: 2vw;
+    color: #fff;
+    background-color: rgb(23, 45, 226);
+    width: 19vw;
+    font-size: 1.6vw;
+    font-family: helvetica;
+}
+
+.conatinerRequerimentMicro li {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.containerKitMicro h3 {
+    margin-top: 2vw;
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    width: 3.5vw;
+    font-family: helvetica;
+    font-size: 2.5vw;
+}
+
+.containerKitMicro li {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.containerJob h3 {
+    margin-top: 2vw;
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    width: 20vw;
+    font-size: 1.8vw;
+}
+
+.conatinerBilingual h3 {
+    margin-top: 2vw;
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    width: 15.5vw;
+    font-family: helvetica;
+    font-size: 2vw;
+}
+
+.conatinerBilingual p {
+    color: #fff;
+    font-family: helvetica;
+    margin: 0;
+}
+
+.containerApproved h3 {
+    margin-top: 2vw;
+    background-color: rgb(23, 45, 226);
+    color: #fff;
+    font-size: 1.5vw;
+    font-family: helvetica;
+    width: 25vw;
+}
+
+.btnTwitter:hover {
+    background-color: #000;
+    color: aqua;
+}
+
+.btnFacebook:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.btnYoutube:hover {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.btnInstagram:hover {
+    background-color: #3F529B;
+    background-image: linear-gradient(to right, #FF7737, #E76363, #C06767, #BD3566);
+    color: aliceblue;
+}
+
+.cuadroDropdown a {
+    color: #fff;
+    font-family: helvetica;
+}
+
+.cuadroDropdown a:hover {
+    background-color: rgba(0, 0, 0, 0.631);
+    color: #fff;
+}
+
+.cuadroDropdown {
+    background: linear-gradient(to right, #0000001e, #ffffffa3);
+}
