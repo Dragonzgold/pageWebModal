@@ -10,13 +10,22 @@
   text-align: center;
 }
 
-.containerAll {
+@media (max-width: 400px) {
+  .titleEducation {
+      font-size: 4vw;
+  }
+}
+
+/* .containerAll {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .square1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   border-width: 2px;
   border-style: solid;
@@ -30,6 +39,13 @@
   margin: 10px;
   position: relative;
 }
+
+@media (max-width: 450px) {
+  .square1 {
+      max-height: 120vw;
+  }
+}
+
 
 .square1:hover {
   cursor: crosshair;
@@ -71,10 +87,18 @@
 
 .cosmetologyEducation p {
   color: #fff;
-  text-align: justify;
+}
+
+@media (max-width: 450px) {
+  .cosmetologyEducation p {
+    font-size: 4vw;
+  }
 }
 
 .square2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   border-width: 2px;
   border-style: solid;
@@ -87,6 +111,12 @@
   padding: 10px;
   margin: 10px;
   position: relative;
+}
+
+@media (max-width: 450px) {
+  .square2 {
+      max-height: 120vw;
+  }
 }
 
 .square2::after {
@@ -103,6 +133,12 @@
   z-index: -1;
 }
 
+@media (max-width: 450px) {
+  .square2::after {
+    background-position: 70%;
+  }
+}
+
 .square2:hover {
   cursor: crosshair;
   height: 50%;
@@ -112,14 +148,9 @@
   animation-name: test;
 }
 
-.square2 p {
-  color: aqua;
-  text-align: justify;
-}
-
 .skincareEducation p {
   color: #fff;
-  text-align: justify;
+  text-align: center;
 }
 
 .skincareEducation h4 {
@@ -127,6 +158,9 @@
 }
 
 .square3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   border-width: 2px;
   border-style: solid;
@@ -139,6 +173,12 @@
   padding: 10px;
   margin: 10px;
   position: relative;
+}
+
+@media (max-width: 450px) {
+  .square3 {
+      max-height: 120vw;
+  }
 }
 
 .square3::after {
@@ -164,20 +204,26 @@
   animation-name: test;
 }
 
-.square3 p {
-  color: aqua;
-  text-align: justify;
-}
-
 .advancedMakeupEducation h4 {
   color: #fff;
 }
 
 .advancedMakeupEducation p {
   color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .advancedMakeupEducation p {
+      font-size: 4.2vw;
+  }
 }
 
 .square4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   text-align: center;
   border-width: 2px;
   border-style: solid;
@@ -190,6 +236,12 @@
   padding: 10px;
   margin: 10px;
   position: relative;
+}
+
+@media (max-width: 450px) {
+  .square4 {
+      max-height: 120vw;
+  }
 }
 
 .square4::after {
@@ -217,7 +269,13 @@
 
 .square4 p {
   color: #fff;
-  text-align: justify;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .square4 p {
+      font-size: 4.8vw;
+  }
 }
 
 .square4 h4 {
@@ -225,6 +283,9 @@
 }
 
 .square5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   border-width: 2px;
   border-style: solid;
@@ -237,6 +298,12 @@
   padding: 10px;
   margin: 10px;
   position: relative;
+}
+
+@media (max-width: 450px) {
+  .square5 {
+      max-height: 120vw;
+  }
 }
 
 .square5::after {
@@ -264,7 +331,13 @@
 
 .square5 p {
   color: #fff;
-  text-align: justify;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .square5 p {
+      font-size: 4.7vw;
+  }
 }
 
 .square5 h4 {
@@ -272,6 +345,10 @@
 }
 
 .square6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   text-align: center;
   border-width: 3px;
   border-style: solid;
@@ -283,6 +360,12 @@
   padding: 10px;
   margin: 10px;
   position: relative;
+}
+
+@media (max-width: 450px) {
+  .square6 {
+      max-height: 120vw;
+  }
 }
 
 .square6::after {
@@ -310,7 +393,13 @@
 
 .square6 p {
   color: #fff;
-  text-align: justify;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .square6 p {
+    font-size: 4.3vw;
+  }
 }
 
 .square6 h4 {
@@ -318,6 +407,9 @@
 }
 
 .square7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   border-width: 3px;
   border-style: solid;
@@ -329,6 +421,12 @@
   padding: 10px;
   margin: 10px;
   position: relative;
+}
+
+@media (max-width: 450px) {
+  .square7 {
+      max-height: 120vw;
+  }
 }
 
 .square7::after {
@@ -356,7 +454,13 @@
 
 .square7 p {
   color: #fff;
-  text-align: justify;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .square7 p {
+    font-size: 4.7vw;
+  }
 }
 
 .square7 h4 {
@@ -364,6 +468,9 @@
 }
 
 .square8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   border-width: 3px;
   border-style: solid;
@@ -375,6 +482,12 @@
   padding: 10px;
   margin: 10px;
   position: relative;
+}
+
+@media (max-width: 450px) {
+  .square8 {
+      max-height: 120vw;
+  }
 }
 
 .square8::after {
@@ -402,7 +515,13 @@
 
 .square8 p {
   color: #fff;
-  text-align: justify;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .square8 p {
+    font-size: 4.3vw;
+  }
 }
 
 .square8 h4 {
@@ -410,6 +529,9 @@
 }
 
 .square9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   border-width: 3px;
   border-style: solid;
@@ -421,6 +543,12 @@
   padding: 10px;
   margin: 10px;
   position: relative;
+}
+
+@media (max-width: 450px) {
+  .square9 {
+      max-height: 120vw;
+  }
 }
 
 .square9::after {
@@ -448,7 +576,13 @@
 
 .square9 p {
   color: #fff;
-  text-align: justify;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .square9 p {
+    font-size: 4.6vw;
+  }
 }
 
 .square9 h4 {

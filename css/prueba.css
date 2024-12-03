@@ -20,7 +20,7 @@ a {
 }
 
 .menu li {
-    margin-right: 70px;
+    margin-right: 70px; 
     margin-top: -25px;
 }
 
@@ -114,12 +114,18 @@ a {
     font-weight: bold;
     font-size: 1.5rem;
     margin-left: 3rem;
-    margin-top: -50px;
 }
 
 @media (max-width: 1171px) {
     .nameEmpressNav {
         margin-top: 0px;
+    }
+}
+
+@media (max-width: 404px) {
+    .nameEmpressNav {
+        margin-left: 0%;
+        font-size: 6.5vw;
     }
 }
 
@@ -216,15 +222,14 @@ a {
 }
 
 .containerAllImageIcon img {
-    width: 60px;
+    width: 5vw;
 }
 
 .containerImageMark {
     margin-bottom: 3vw;
-    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 15vw;
     height: 15vw;

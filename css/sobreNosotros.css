@@ -31,6 +31,12 @@ body {
     text-align: justify;
 }
 
+@media (max-width: 600px) {
+    .sobreNosotrosDiv p {
+        font-size: 2.5vw;
+    }
+}
+
 /* Apartado de mision y vision */
 
 .containerMIV {
@@ -41,12 +47,24 @@ body {
     align-items: center;
 }
 
+@media (max-width: 766px) {
+    .containerMIV {
+        flex-direction: column;
+    }
+}
+
 .containerMIV .containerMission {
     background-color: rgb(108, 16, 16);
     box-shadow: -8px 8px 5px 1px rgb(128, 128, 128);
     margin: 0;
     max-width: 500px;
     padding: 2vw;
+}
+
+@media (max-width: 766px) {
+    .containerMIV .containerMission {
+        box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
+    }
 }
 
 .containerMission:hover {
@@ -68,11 +86,12 @@ body {
 }
 
 .containerMission h3 {
-    text-align: justify;
+    text-align: center;
     color: #fff;
 }
 
 .containerMission p {
+    text-align: center;
     color: #fff;
     font-family: helvetica;
 }
@@ -85,6 +104,12 @@ body {
     padding: 2vw;
 }
 
+@media (max-width: 766px) {
+    .containerMIV .containerVision {
+        box-shadow: -8px 8px 5px 1px rgb(128, 128, 128);
+    }
+}
+
 .containerVision:hover {
     animation-name: aboutAnimation;
     animation-duration: 1s;
@@ -93,28 +118,43 @@ body {
 
 .containerVision h3 {
     color: #fff;
-    text-align: justify;
+    text-align: center;
 }
 
 .containerVision p {
+    text-align: center;
     color: #fff;
     font-family: helvetica;
 }
+
+
+/* Imagen del centro */
 
 .imgPrueba {
     width: 40vw;
     height: 60vh;
 }
 
-/* Imagen del centro */
-
 .imgPrueba {
     background: linear-gradient(rgba(0, 0, 0, 0.643), rgba(0, 0, 0, 0.175)), url(../img/fondoAbout1.jpg);
     width: 90vw;
     background-position: right;
-    background-repeat: no-repeat;
-    background-size: cover;
     box-shadow: 3px -2px 25px rgba(255, 255, 255, 0.502);
+}
+
+@media (max-width: 1000px) {
+    .imgPrueba {
+        background-position: 85%;
+    }
+}
+
+@media (max-width: 766px) {
+    .imgPrueba {
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 45vw;
+        height: 40vh;
+    }
 }
 
 .imgPrueba:hover {
@@ -135,15 +175,14 @@ body {
     to {
         transform: scale(1.1);
     }
-
 }
 
 /* Apartado sobre el fundador */
 
-.titleFundador {
-    margin-bottom: 2rem;
-    font-family: helvetica;
-    color: #000;
+@media (max-width: 470px) {
+    .TitleFundadorTrue {
+        text-align: center;
+    }
 }
 
 .containerFundadorExt {
@@ -153,6 +192,15 @@ body {
     box-shadow: -8px 8px 5px 1px rgb(128, 128, 128);
 }
 
+@media (max-width: 355px) {
+    .containerFundadorExt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .containerFundador {
     background-color: #fff;
     margin-top: 130px;
@@ -160,11 +208,24 @@ body {
     text-align: end;
 }
 
+@media (max-width: 1198px) {
+    .containerFundador {
+        background-color: transparent;
+        margin-top: 0%;
+    }
+}
+
 .containerText {
     text-align: justify;
-    margin-right: 50PX;
     color: #ffffff;
     font-family: helvetica;
+}
+
+@media (max-width: 470px) {
+    .containerText {
+        text-align: center;
+        padding: 2%;
+    }
 }
 
 .imagFundador {
@@ -172,6 +233,19 @@ body {
     float: right;
     margin-left: 20PX;
     box-shadow: 3px -2px 25px rgba(255, 255, 255, 0.502);
+}
+
+@media (max-width: 990px) {
+    .imagFundador {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 355px) {
+    .imagFundador {
+        margin-left: 0%;
+        float: none;
+    }
 }
 
 .containerTitlefundadorTrue {
@@ -190,12 +264,27 @@ body {
     padding: 2vw;
     font-family: helvetica;
     box-shadow: 4px -3px 5px 1px rgb(128, 128, 128);
+    margin-bottom: 3vw;
+}
 
+@media (max-width: 400px) {
+    .TitlePresidentaTrue {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 .titleFundadora {
     margin-bottom: 2rem;
     font-family: helvetica;
+}
+
+@media (max-width: 470px) {
+    .TitlePresidentaTrue {
+        text-align: center;
+    }
 }
 
 .imagFundadora {
@@ -205,11 +294,17 @@ body {
     box-shadow: 3px -2px 25px rgba(255, 255, 255, 0.502);
 }
 
-.textFundadora::after {
-    content: "";
-    display: table;
-    clear: both;
-    font-family: helvetica;
+@media (max-width: 990px) {
+    .imagFundadora {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .imagFundadora {
+        float: none;
+        margin-left: 0%;
+    }
 }
 
 .containerTextPresidenta {
@@ -220,11 +315,30 @@ body {
     font-family: helvetica;
 }
 
+@media (max-width: 430px) {
+    .containerTextPresidenta {
+        margin-right: 0%;
+    }
+}
+
+@media (max-width: 560px) {
+    .containerTextPresidenta {
+        text-align: center;
+    }
+}
+
 .containerFundadoraWhite {
     margin-top: 50px;
     background-color: #fff;
     height: 35px;
     text-align: end;
+}
+
+@media (max-width: 1198px) {
+    .containerFundadoraWhite {
+        background-color: transparent;
+        margin-top: 0%;
+    }
 }
 
 .containerTitlefundadoraTrue {
