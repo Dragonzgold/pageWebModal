@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.76)), url(/img/studentVisaBack2.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: contain;
     background-position: right;
 }
@@ -15,16 +15,37 @@ body {
     background-size: cover
 }
 
+.portPrincipal {
+    min-height: 400px;
+}
+
+@media (max-width: 990px) {
+    .portPrincipal {
+        min-height: 250px;
+    }
+}
+
 .titlePrincipalStudentvisa h1 {
     color: #fff;
 }
 
 .containerGeneralInformation {
-    text-align: center;
     background-color: rgb(108, 16, 16);
     box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
-    padding: 20px;
     font-family: helvetica;
+}
+
+@media (max-width: 570px) {
+    .containerGeneralInformation {
+        box-shadow: 1vw -1vw 5px 1px rgb(128, 128, 128);
+    }
+}
+
+@media (max-width: 558px) {
+    .containerGeneralInformation {
+        width: 85vw;
+        margin: 0 auto;
+    }
 }
 
 .containerGeneralInformation h2 {
@@ -33,12 +54,31 @@ body {
     font-family: helvetica;
 }
 
+@media (max-width: 558px) {
+    .containerGeneralInformation h2 {
+        font-size: 5vw;
+        text-align: center;
+    }
+}
+
 .containerTextInformation p {
     margin-top: 2vw;
     text-align: justify;
     color: black;
     font-size: 1.5vw;
     font-family: helvetica;
+}
+
+@media (max-width: 720px) {
+    .containerTextInformation p {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .containerTextInformation p {
+        font-size: 4vw;
+    }
 }
 
 .containerRequirementVisa {
@@ -50,9 +90,33 @@ body {
     margin: 0 auto;
 }
 
+@media (max-width: 720px) {
+    .containerRequirementVisa {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .containerRequirementVisa {
+        width: 65vw;
+    }
+}
+
 .containerRequirementVisa h2 {
     font-size: 2vw;
     color: #fff;
+}
+
+@media (max-width: 720px) {
+    .containerRequirementVisa h2 {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .containerRequirementVisa h2 {
+        font-size: 5vw;
+    }
 }
 
 .containerTetxtRequeriment p {
@@ -61,6 +125,18 @@ body {
     color: black;
     font-size: 1.5vw;
     font-family: helvetica;
+}
+
+@media (max-width: 720px) {
+    .containerTetxtRequeriment ol {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .containerTetxtRequeriment ol {
+        font-size: 4vw;
+    }
 }
 
 .containerStudentVisaProcess {
@@ -72,17 +148,52 @@ body {
     margin: 0 auto;
 }
 
+@media (max-width: 720px) {
+    .containerStudentVisaProcess {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .containerStudentVisaProcess {
+        width: 65vw;
+    }
+}
+
 .containerStudentVisaProcess h2 {
     color: #fff;
     font-size: 2vw;
 }
 
-.ContainerTextStudentVisaProcess li,
-ol {
+@media (max-width: 720px) {
+    .containerStudentVisaProcess h2 {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .containerStudentVisaProcess h2 {
+        font-size: 5vw;
+    }
+}
+
+.ContainerTextStudentVisaProcess li, ol {
     text-align: justify;
     color: black;
     font-size: 1.5vw;
     font-family: helvetica;
+}
+
+@media (max-width: 720px) {
+    .ContainerTextStudentVisaProcess li, ol {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .ContainerTextStudentVisaProcess li, ol {
+        font-size: 4vw;
+    }
 }
 
 .containerMoreInformation {
@@ -94,9 +205,33 @@ ol {
     margin: 0 auto;
 }
 
+@media (max-width: 720px) {
+    .containerMoreInformation {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .containerMoreInformation {
+        width: 65vw;
+    }
+}
+
 .containerMoreInformation h2 {
     color: #fff;
     font-size: 2vw;
+}
+
+@media (max-width: 720px) {
+    .containerMoreInformation h2 {
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 400px) {
+    .containerMoreInformation h2 {
+        font-size: 5vw;
+    }
 }
 
 .containerTextMoreInformation p {
@@ -105,6 +240,32 @@ ol {
     color: black;
     font-size: 1.5vw;
     font-family: helvetica;
+}
+
+@media (max-width: 720px) {
+    .containerTextMoreInformation p {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 430px) {
+    .containerTextMoreInformation p {
+        font-size: 4vw;
+    }
+}
+
+.footerText {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 766px) {
+    .flexFooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
 .btnTwitter:hover {

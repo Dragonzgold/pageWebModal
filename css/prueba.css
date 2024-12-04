@@ -20,7 +20,7 @@ a {
 }
 
 .menu li {
-    margin-right: 70px; 
+    margin-right: 70px;
     margin-top: -25px;
 }
 
@@ -157,13 +157,13 @@ a {
 }
 
 @media (max-width: 766px) {
-    .flexFooter{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
+    .flexFooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
-  }
+}
 
 .reservation,
 .page-header,
