@@ -156,6 +156,15 @@ a {
     justify-content: space-around;
 }
 
+@media (max-width: 766px) {
+    .flexFooter{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+
 .reservation,
 .page-header,
 .offer,
