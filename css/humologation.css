@@ -2,10 +2,20 @@
     color: #fff;
 }
 
+.homologationTitleP {
+    min-height: 400px;
+}
+
+@media (max-width: 990px) {
+    .homologationTitleP {
+        min-height: 300px;
+    }
+}
+
 .containerTitlePrincipal {
     text-align: center;
     background-color: rgb(108, 16, 16);
-    box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
+    box-shadow: 5px -5px 5px 1px rgb(128, 128, 128);
     padding: 20px;
     font-family: helvetica;
 }
@@ -18,10 +28,21 @@
 
 .containerTextHomologation p {
     margin-top: 2vw;
-    text-align: justify;
     color: black;
     font-size: 1.5vw;
     font-family: helvetica;
+}
+
+@media (max-width: 730px) {
+    .containerTextHomologation p {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerTextHomologation p {
+        font-size: 3vw;
+    }
 }
 
 .containerTextHomologation ul {
@@ -32,14 +53,52 @@
     font-family: helvetica;
 }
 
+@media (max-width: 730px) {
+    .containerTextHomologation ul {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerTextHomologation ul {
+        font-size: 3vw;
+    }
+}
+
+.containerRequeriment {
+    margin: 5% 0% 5% 0%;
+}
+
+@media (max-width: 500px) {
+    .containerRequeriment {
+        margin: 7% 0% 8% 0%;
+    }
+}
+
 .containerRequeriment h3 {
     text-align: center;
     background-color: rgb(108, 16, 16);
-    box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
+    box-shadow: 0.6vw -0.6vw 5px 1px rgb(128, 128, 128);
     font-family: helvetica;
-    width: 15vw;
+    width: 20vw;
+    font-size: 3vw;
     margin: 0 auto;
     color: #fff;
+}
+
+@media (max-width: 730px) {
+    .containerRequeriment h3 {
+        width: 27vw;
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerRequeriment h3 {
+        width: 33vw;
+        font-size: 5vw;
+        box-shadow: 0.8vw -0.8vw 5px 1px rgb(128, 128, 128);
+    }
 }
 
 .containerRequeriment ol {
@@ -51,14 +110,42 @@
     font-family: helvetica;
 }
 
+@media (max-width: 730px) {
+    .containerRequeriment ol {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerRequeriment ol {
+        font-size: 3vw;
+    }
+}
+
 .containerProcedure h3 {
     text-align: center;
     background-color: rgb(108, 16, 16);
-    box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
+    box-shadow: 0.3vw -0.3vw 5px 1px rgb(128, 128, 128);
     font-family: helvetica;
-    width: 12vw;
+    width: 15vw;
+    font-size: 3vw;
     margin: 0 auto;
     color: #fff;
+}
+
+@media (max-width: 730px) {
+    .containerProcedure h3 {
+        width: 21vw;
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerProcedure h3 {
+        width: 26vw;
+        font-size: 5vw;
+        box-shadow: 0.8vw -0.8vw 5px 1px rgb(128, 128, 128);
+    }
 }
 
 .containerProcedure ol {
@@ -70,14 +157,45 @@
     font-family: helvetica;
 }
 
+@media (max-width: 730px) {
+    .containerProcedure ol {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerProcedure ol {
+        font-size: 3vw;
+    }
+}
+
+.containerMoreInformation{
+    margin: 6% 0% 8% 0%;
+}
+
 .containerMoreInformation h2 {
     text-align: center;
     background-color: rgb(108, 16, 16);
-    box-shadow: 8px -8px 5px 1px rgb(128, 128, 128);
+    box-shadow: 0.4vw -0.4vw 5px 1px rgb(128, 128, 128);
     font-family: helvetica;
     width: 35vw;
     margin: 0 auto;
     color: #fff;
+}
+
+@media (max-width: 730px) {
+    .containerMoreInformation h2 {
+        width: 35vw;
+        font-size: 4vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerMoreInformation h2 {
+        width: 40vw;
+        font-size: 5vw;
+        box-shadow: 0.8vw -0.8vw 5px 1px rgb(128, 128, 128);
+    }
 }
 
 .containerMoreInformation p {
@@ -86,6 +204,24 @@
     color: black;
     font-size: 1.5vw;
     font-family: helvetica;
+}
+
+@media (max-width: 730px) {
+    .containerMoreInformation p {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .containerMoreInformation p {
+        font-size: 3vw;
+    }
+}
+
+.footerText{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .reservation,
