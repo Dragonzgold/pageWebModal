@@ -2,6 +2,16 @@ body {
     background-color: #000;
 }
 
+.galleryImagePrincipal{
+    min-height: 400px;
+}
+
+@media (max-width: 990px) {
+    .galleryImagePrincipal {
+        min-height: 40vw;
+    }
+}
+
 .containerAllImage {
     background-color: #fff;
 }
@@ -108,12 +118,26 @@ img {
     background: linear-gradient(to right, #0000001e, #ffffffa3);
 }
 
+.footerText {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 766px) {
+    .flexFooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+
 .reservation,
 .page-header,
 .offer,
 .footer {
     background: linear-gradient(rgba(0, 0, 0, 0.643), rgba(0, 0, 0, 0.68)), url(../img/GalleryImage/footerGallery3.jpg);
-    padding: 50px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover
